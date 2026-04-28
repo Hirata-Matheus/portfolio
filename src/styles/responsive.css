@@ -1,0 +1,153 @@
+@media (max-width: 1180px) {
+  .hero-grid,
+  .section-grid-about {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-badges {
+    padding-top: 0;
+  }
+
+  .focus-card {
+    margin-top: 0;
+  }
+
+  .metric-grid,
+  .stack-grid,
+  .process-grid,
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .content-wrap,
+  .narrow-content {
+    width: min(100% - 32px, 1240px);
+  }
+
+  .top-nav {
+    gap: 18px;
+    font-size: 0.92rem;
+    overflow-x: auto;
+  }
+
+  .project-fields,
+  .drone-grid,
+  .contact-grid,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-note {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    min-height: 62px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 12px;
+  }
+
+  .top-nav {
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .hero-block,
+  .section-block,
+  .section-band {
+    padding: 38px 0;
+  }
+
+  .display-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .hero-description,
+  .rich-copy p,
+  .project-description,
+  .project-field p,
+  .feature-card p,
+  .timeline-card p,
+  .process-card p,
+  .drone-card p {
+    font-size: 1rem;
+  }
+
+  .metric-grid,
+  .stack-grid,
+  .process-grid,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .button-primary,
+  .button-secondary {
+    width: 100%;
+  }
+
+  .project-card,
+  .stack-card,
+  .feature-card,
+  .process-card,
+  .drone-card,
+  .quote-card,
+  .focus-card,
+  .status-banner,
+  .timeline-card,
+  .contact-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .quote-card {
+    padding-top: 28px;
+    padding-left: 52px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .timeline-marker {
+    width: 46px;
+    height: 46px;
+  }
+
+  .timeline-item::before {
+    left: 22px;
+    top: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+
+  .surface-card,
+  .hero-badge,
+  .gallery-card,
+  .gallery-shot,
+  .button-primary,
+  .button-secondary,
+  .brand-mark,
+  .top-nav a {
+    transition: none;
+  }
+}

@@ -1,0 +1,161 @@
+.content-wrap {
+  width: min(1240px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid var(--line);
+  background: rgba(8, 11, 18, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 66px;
+  gap: 24px;
+}
+
+.hero-block,
+.section-block,
+.section-band {
+  padding: 56px 0;
+}
+
+.section-band {
+  background: var(--bg-alt);
+}
+
+.hero-grid,
+.section-grid {
+  display: grid;
+  gap: 52px;
+}
+
+.hero-grid,
+.section-grid-about {
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+}
+
+.hero-copy {
+  padding-top: 6px;
+}
+
+.hero-badges {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-content: start;
+  padding-top: 64px;
+}
+
+.section-head {
+  margin-bottom: 34px;
+}
+
+.section-head.with-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.section-head.with-icon .material-symbols-rounded {
+  color: var(--accent);
+  font-size: 1.9rem;
+  margin-top: 6px;
+}
+
+.section-head.centered,
+.contact-block .section-head {
+  text-align: center;
+}
+
+.section-copy {
+  align-self: start;
+}
+
+.metric-grid,
+.stack-grid,
+.feature-grid,
+.process-grid,
+.gallery-grid,
+.contact-grid {
+  display: grid;
+  gap: 22px;
+}
+
+.metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stacked-cards {
+  display: grid;
+  gap: 28px;
+}
+
+.stack-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.feature-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.timeline-list {
+  display: grid;
+  gap: 20px;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  align-items: stretch;
+  gap: 22px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 31px;
+  top: 52px;
+  bottom: -20px;
+  width: 2px;
+  background: var(--line);
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+.process-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.drone-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.gallery-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 40px;
+}
+
+.narrow-content {
+  width: min(900px, calc(100% - 48px));
+}
+
+.contact-actions {
+  justify-content: center;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 18px 0 20px;
+}

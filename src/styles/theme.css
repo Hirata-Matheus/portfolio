@@ -1,0 +1,18 @@
+:root {
+  color-scheme: dark;
+  font-family: "Manrope", sans-serif;
+  --bg: #080b12;
+  --bg-alt: #10131c;
+  --surface: #1a1d27;
+  --surface-2: #151923;
+  --surface-soft: #10151c;
+  --line: #2b3242;
+  --line-strong: rgba(19, 204, 150, 0.52);
+  --text: #f7f7fb;
+  --muted: #96a3bf;
+  --muted-2: #7986a2;
+  --accent: #14c892;
+  --accent-2: #0ca574;
+  --accent-soft: rgba(20, 200, 146, 0.12);
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.24);
+}
