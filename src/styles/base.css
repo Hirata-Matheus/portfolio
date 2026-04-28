@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   min-width: 320px;
   background: var(--bg);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 body::before {
@@ -37,6 +39,7 @@ a {
   background:
     radial-gradient(circle at top center, rgba(23, 38, 61, 0.18), transparent 32%),
     linear-gradient(180deg, rgba(8, 11, 18, 1) 0%, rgba(8, 11, 18, 1) 100%);
+  overflow-x: clip;
 }
 
 .material-symbols-rounded {

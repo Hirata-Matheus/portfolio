@@ -1,3 +1,59 @@
+@media (max-width: 1919px) {
+  .display-title {
+    font-size: clamp(2.75rem, 4.5vw, 4.3rem);
+  }
+
+  .section-title {
+    font-size: clamp(1.9rem, 2.8vw, 2.9rem);
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.08rem, 1.8vw, 1.5rem);
+  }
+
+  .hero-description,
+  .section-description,
+  .rich-copy p,
+  .project-description,
+  .project-field p,
+  .feature-card p,
+  .timeline-card p,
+  .process-card p,
+  .drone-card p,
+  .gallery-card p,
+  .quote-card p,
+  .quote-card span,
+  .contact-copy,
+  .metric-card p,
+  .status-banner p {
+    font-size: 1rem;
+  }
+
+  .contact-card strong,
+  .project-field h4,
+  .metric-card h3,
+  .status-banner h3 {
+    font-size: 1rem;
+  }
+
+  .surface-card,
+  .gallery-shot {
+    border-radius: 13px;
+  }
+
+  .button-primary,
+  .button-secondary,
+  .contact-nav,
+  .hero-badge,
+  .copy-email-button {
+    border-radius: 11px;
+  }
+
+  .gallery-shot {
+    height: 198px;
+  }
+}
+
 @media (max-width: 1180px) {
   .hero-grid,
   .section-grid-about {
@@ -18,18 +74,53 @@
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .display-title {
+    font-size: clamp(2.5rem, 5.4vw, 3.8rem);
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 3vw, 2.45rem);
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-description,
+  .section-description,
+  .rich-copy p,
+  .project-description,
+  .project-field p,
+  .feature-card p,
+  .timeline-card p,
+  .process-card p,
+  .drone-card p,
+  .gallery-card p,
+  .quote-card p,
+  .quote-card span,
+  .contact-copy,
+  .metric-card p,
+  .status-banner p {
+    font-size: 0.97rem;
+  }
+
+  .gallery-shot {
+    height: 182px;
+  }
 }
 
 @media (max-width: 900px) {
   .content-wrap,
   .narrow-content {
-    width: min(100% - 32px, 1240px);
+    width: min(1240px, calc(100% - 32px));
+    max-width: calc(100% - 32px);
   }
 
   .top-nav {
     gap: 18px;
     font-size: 0.92rem;
-    overflow-x: auto;
+    overflow-x: visible;
   }
 
   .project-fields,
@@ -42,6 +133,55 @@
   .gallery-note {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .display-title {
+    font-size: clamp(2.25rem, 7vw, 3.2rem);
+  }
+
+  .section-title {
+    font-size: clamp(1.65rem, 4.4vw, 2.15rem);
+  }
+
+  .hero-subtitle {
+    font-size: 1.08rem;
+  }
+
+  .top-nav {
+    font-size: 0.88rem;
+  }
+
+  .brand-mark,
+  .contact-card strong {
+    font-size: 1rem;
+  }
+
+  .hero-description,
+  .section-description,
+  .rich-copy p,
+  .project-description,
+  .project-field p,
+  .feature-card p,
+  .timeline-card p,
+  .process-card p,
+  .drone-card p,
+  .gallery-card p,
+  .quote-card p,
+  .quote-card span,
+  .contact-copy,
+  .metric-card p,
+  .status-banner p {
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+
+  .surface-card,
+  .gallery-shot {
+    border-radius: 12px;
+  }
+
+  .gallery-shot {
+    height: 176px;
   }
 }
 
@@ -58,6 +198,8 @@
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
+    overflow-x: visible;
+    row-gap: 10px;
   }
 
   .hero-block,
@@ -67,22 +209,63 @@
   }
 
   .display-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 0.98rem;
   }
 
   .hero-description,
+  .section-description,
   .rich-copy p,
   .project-description,
   .project-field p,
   .feature-card p,
   .timeline-card p,
   .process-card p,
-  .drone-card p {
-    font-size: 1rem;
+  .drone-card p,
+  .gallery-card p,
+  .quote-card p,
+  .quote-card span,
+  .contact-copy,
+  .metric-card p,
+  .status-banner p {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .brand-mark,
+  .contact-card strong,
+  .project-field h4,
+  .status-banner h3,
+  .metric-card h3 {
+    font-size: 0.96rem;
+  }
+
+  .button-primary,
+  .button-secondary,
+  .contact-nav,
+  .hero-badge,
+  .copy-email-button {
+    border-radius: 10px;
+  }
+
+  .surface-card,
+  .gallery-shot {
+    border-radius: 10px;
+  }
+
+  .hero-badges {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-badge-wide {
+    grid-column: auto;
   }
 
   .metric-grid,
@@ -111,6 +294,10 @@
     padding-right: 20px;
   }
 
+  .gallery-shot {
+    height: 162px;
+  }
+
   .quote-card {
     padding-top: 28px;
     padding-left: 52px;
@@ -129,6 +316,44 @@
   .timeline-item::before {
     left: 22px;
     top: 42px;
+  }
+}
+
+@media (max-width: 399px) {
+  .content-wrap,
+  .narrow-content {
+    width: min(100%, calc(100% - 24px));
+    max-width: calc(100% - 24px);
+  }
+
+  .contact-card {
+    align-items: flex-start;
+    gap: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .contact-card-email {
+    flex-wrap: wrap;
+  }
+
+  .contact-card-main {
+    width: 100%;
+  }
+
+  .copy-email-button {
+    margin-left: auto;
+    width: 38px;
+    height: 38px;
+  }
+
+  .contact-card small {
+    font-size: 0.88rem;
+  }
+
+  .contact-card strong {
+    font-size: 0.92rem;
+    line-height: 1.45;
   }
 }
 

@@ -1,0 +1,28 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#111620"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="url(#paint0_linear_3_2)" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="108" y="108" width="454" height="504" rx="24" fill="#1B1F2A" stroke="#3E485C" stroke-dasharray="12 12"/>
+  <rect x="718" y="108" width="454" height="504" rx="24" fill="#171D28" stroke="#18C08F" stroke-opacity="0.28"/>
+  <rect x="140" y="146" width="152" height="20" rx="10" fill="#485466" fill-opacity="0.45"/>
+  <rect x="750" y="146" width="186" height="20" rx="10" fill="#18C08F" fill-opacity="0.22"/>
+  <rect x="140" y="194" width="390" height="18" rx="9" fill="#30394A"/>
+  <rect x="750" y="194" width="390" height="18" rx="9" fill="#293446"/>
+  <rect x="140" y="230" width="318" height="14" rx="7" fill="#252E3D"/>
+  <rect x="750" y="230" width="326" height="14" rx="7" fill="#202A38"/>
+  <rect x="140" y="278" width="170" height="224" rx="18" fill="#232B39"/>
+  <rect x="330" y="278" width="200" height="104" rx="18" fill="#232B39"/>
+  <rect x="330" y="398" width="200" height="104" rx="18" fill="#232B39"/>
+  <rect x="750" y="278" width="170" height="224" rx="18" fill="#13211D" stroke="#18C08F" stroke-opacity="0.18"/>
+  <rect x="940" y="278" width="200" height="104" rx="18" fill="#202937"/>
+  <rect x="940" y="398" width="200" height="104" rx="18" fill="#202937"/>
+  <path d="M604 360L676 360" stroke="#18C08F" stroke-width="24" stroke-linecap="round"/>
+  <path d="M642 322L680 360L642 398" stroke="#18C08F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="140" y="538" width="130" height="34" rx="17" fill="#30394A"/>
+  <rect x="750" y="538" width="164" height="34" rx="17" fill="#18C08F"/>
+  <defs>
+    <linearGradient id="paint0_linear_3_2" x1="640" y1="56" x2="640" y2="664" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141A24"/>
+      <stop offset="1" stop-color="#0C1118"/>
+    </linearGradient>
+  </defs>
+</svg>

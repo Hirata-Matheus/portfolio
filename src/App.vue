@@ -62,10 +62,10 @@ onBeforeUnmount(() => {
           <div class="hero-copy" data-reveal="left">
             <div class="eyebrow-pill">Foco atual: Front-End, UX e Arquitetura de Interfaces</div>
             <h1 class="display-title">Matheus Hirata</h1>
-            <p class="hero-subtitle">Desenvolvedor Web Pleno | Full Stack em transicao para Front-End Specialist</p>
+            <p class="hero-subtitle">Desenvolvedor Web Pleno | Full Stack em transição para Front-End Specialist</p>
             <p class="hero-description">
-              Crio interfaces modernas, performaticas e escalaveis, unindo visao de produto, experiencia do usuario e
-              qualidade de codigo para construir solucoes digitais mais claras, robustas e profissionais.
+              Crio interfaces modernas, performáticas e escaláveis, unindo visão de produto, experiência do usuário e
+              qualidade de código para construir soluções digitais mais claras, robustas e profissionais.
             </p>
 
             <div class="hero-actions">
@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
             </div>
 
             <p class="hero-footnote">
-              6 anos de experiencia em desenvolvimento web, atuando entre front-end, back-end e evolucao de sistemas
+              6 anos de experiência em desenvolvimento web, atuando entre front-end, back-end e evolução de sistemas
               corporativos.
             </p>
           </div>
@@ -87,7 +87,7 @@ onBeforeUnmount(() => {
               v-for="(badge, index) in heroBadges"
               :key="badge.title"
               class="hero-badge"
-              :class="{ 'hero-badge-wide': badge.title === 'Componentizacao' }"
+              :class="{ 'hero-badge-wide': badge.title === 'Componentização' }"
               :style="getRevealDelayStyle(index, 70, 180)"
               data-reveal="up"
             >
@@ -103,30 +103,30 @@ onBeforeUnmount(() => {
             <h2 class="section-title">Sobre mim</h2>
             <div class="rich-copy">
               <p>
-                Sou desenvolvedor web com 6 anos de experiencia, com atuacao full stack em projetos que exigem desde
-                construcao de interfaces ate integracoes, regras de negocio e manutencao de sistemas complexos.
+                Sou desenvolvedor web com 6 anos de experiência, com atuação full stack em projetos que exigem desde
+                construção de interfaces até integrações, regras de negócio e manutenção de sistemas complexos.
               </p>
               <p>
-                Ao longo dessa jornada, percebi que meu maior diferencial esta na criacao de experiencias front-end
+                Ao longo dessa jornada, percebi que meu maior diferencial está na criação de experiências front-end
                 mais claras, modernas e bem estruturadas. Por isso, tenho direcionado minha carreira para uma
-                especializacao em Front-End, combinando interface, usabilidade, performance, componentizacao e visao de
+                especialização em Front-End, combinando interface, usabilidade, performance, componentização e visão de
                 produto.
               </p>
               <p>
-                Meu foco e construir aplicacoes que nao apenas funcionem bem, mas que transmitam qualidade, organizacao
-                e confianca para quem usa.
+                Meu foco é construir aplicações que não apenas funcionem bem, mas que transmitam qualidade, organização
+                e confiança para quem usa.
               </p>
             </div>
           </div>
 
           <aside class="surface-card focus-card" data-reveal="right" :style="getRevealDelayStyle(0, 0, 120)">
-            <h3>Hoje meu foco esta em:</h3>
+            <h3>Hoje meu foco está em:</h3>
             <ul class="check-list">
               <li>Front-End moderno</li>
               <li>UX aplicada ao desenvolvimento</li>
               <li>Arquitetura de componentes</li>
               <li>Performance e escalabilidade</li>
-              <li>Interfaces com aparencia premium</li>
+              <li>Interfaces com aparência premium</li>
             </ul>
           </aside>
         </div>
@@ -154,7 +154,7 @@ onBeforeUnmount(() => {
           <div class="section-head" data-reveal="left">
             <h2 class="section-title">Projetos em destaque</h2>
             <p class="section-description">
-              Alguns projetos que representam minha evolucao tecnica, meu olhar para experiencia do usuario e minha
+              Alguns projetos que representam minha evolução técnica, meu olhar para experiência do usuário e minha
               capacidade de estruturar interfaces com qualidade e clareza.
             </p>
           </div>
@@ -168,6 +168,9 @@ onBeforeUnmount(() => {
               :style="getRevealDelayStyle(index, 90)"
               data-reveal="up"
             >
+              <div class="project-cover">
+                <img :src="project.coverSrc" :alt="project.coverAlt" class="project-cover-image" loading="lazy" />
+              </div>
               <h3 class="project-title">{{ project.title }}</h3>
               <p class="project-description">{{ project.description }}</p>
 
@@ -189,7 +192,7 @@ onBeforeUnmount(() => {
       <section id="stack" class="section-block">
         <div class="content-wrap">
           <div class="section-head" data-reveal="left">
-            <h2 class="section-title">Stack e especializacao</h2>
+            <h2 class="section-title">Stack e especialização</h2>
           </div>
 
           <div class="stack-grid">
@@ -210,10 +213,10 @@ onBeforeUnmount(() => {
           </div>
 
           <article class="surface-card status-banner" data-reveal="scale" :style="getRevealDelayStyle(0, 0, 120)">
-            <h3>Especializacao em andamento</h3>
+            <h3>Especialização em andamento</h3>
             <p>
-              Transformando uma base full stack solida em uma atuacao cada vez mais focada em Front-End, arquitetura de
-              interfaces e experiencia digital.
+              Transformando uma base full stack sólida em uma atuação cada vez mais focada em Front-End, arquitetura de
+              interfaces e experiência digital.
             </p>
           </article>
         </div>
@@ -244,7 +247,7 @@ onBeforeUnmount(() => {
       <section class="section-block">
         <div class="content-wrap">
           <div class="section-head" data-reveal="left">
-            <h2 class="section-title">Minha trajetoria</h2>
+            <h2 class="section-title">Minha trajetória</h2>
           </div>
 
           <div class="timeline-list">
@@ -294,10 +297,10 @@ onBeforeUnmount(() => {
           <div class="section-head with-icon" data-reveal="left">
             <span class="material-symbols-rounded">flight</span>
             <div>
-              <h2 class="section-title">Alem do codigo</h2>
+              <h2 class="section-title">Além do código</h2>
               <p class="section-description">
-                Quando nao estou desenvolvendo interfaces, exploro o mundo de uma perspectiva diferente atraves da
-                fotografia aerea com drones.
+                Quando não estou desenvolvendo interfaces, exploro o mundo de uma perspectiva diferente através da
+                fotografia aérea com drones.
               </p>
             </div>
           </div>
@@ -332,7 +335,9 @@ onBeforeUnmount(() => {
               :style="getRevealDelayStyle(index, 70)"
               data-reveal="up"
             >
-              <div class="gallery-shot" :class="item.className" />
+              <div class="gallery-shot">
+                <img :src="item.imageSrc" :alt="item.imageAlt" class="gallery-image" loading="lazy" />
+              </div>
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
               <span class="tag-chip">{{ item.tag }}</span>
@@ -342,15 +347,15 @@ onBeforeUnmount(() => {
           <article class="surface-card gallery-note" data-reveal="scale" :style="getRevealDelayStyle(0, 0, 120)">
             <div>
               <strong>Galeria em desenvolvimento:</strong>
-              <span>As imagens acima sao exemplos de fotografia aerea.</span>
+              <span>As imagens acima fazem parte da minha seleção atual de fotografia aérea.</span>
               <p>
-                Em breve estarei compartilhando minhas proprias capturas com o DJI Neo 2, incluindo paisagens, vistas
-                urbanas e experimentacoes criativas.
+                Vou expandir essa curadoria com novas capturas, explorando cenas urbanas, paisagens naturais e recortes
+                visuais de diferentes horários e atmosferas.
               </p>
             </div>
             <div class="note-status">
               <span class="material-symbols-rounded">flight</span>
-              <span>Atualizacoes em breve</span>
+              <span>Atualizações em breve</span>
             </div>
           </article>
         </div>
@@ -359,17 +364,17 @@ onBeforeUnmount(() => {
       <section class="section-band">
         <div class="content-wrap narrow-content">
           <div class="section-head centered" data-reveal="up">
-            <h2 class="section-title">Percepcao do meu trabalho</h2>
+            <h2 class="section-title">Percepção do meu trabalho</h2>
           </div>
 
           <article class="surface-card quote-card" data-reveal="scale" :style="getRevealDelayStyle(0, 0, 100)">
             <div class="quote-mark">"</div>
             <p>
-              Matheus se destaca por unir capacidade tecnica com um olhar muito cuidadoso para a experiencia do
-              usuario. Suas entregas costumam elevar nao apenas a interface, mas a percepcao geral de qualidade do
+              Matheus se destaca por unir capacidade técnica com um olhar muito cuidadoso para a experiência do
+              usuário. Suas entregas costumam elevar não apenas a interface, mas a percepção geral de qualidade do
               produto.
             </p>
-            <span>- Lider de Produto, ambiente SaaS B2B</span>
+            <span>- Líder de Produto, ambiente SaaS B2B</span>
           </article>
         </div>
       </section>
@@ -377,10 +382,10 @@ onBeforeUnmount(() => {
       <section id="contato" class="section-block contact-block">
         <div class="content-wrap narrow-content">
           <div class="section-head centered" data-reveal="up">
-            <h2 class="section-title">Vamos construir algo de alto nivel?</h2>
+            <h2 class="section-title">Vamos construir algo de alto nível?</h2>
             <p class="section-description contact-copy">
-              Estou em busca de oportunidades onde eu possa contribuir com interfaces mais modernas, escalaveis e bem
-              pensadas, aprofundando minha especializacao em Front-End e experiencia do usuario.
+              Estou em busca de oportunidades onde eu possa contribuir com interfaces mais modernas, escaláveis e bem
+              pensadas, aprofundando minha especialização em Front-End e experiência do usuário.
             </p>
           </div>
 
@@ -405,7 +410,7 @@ onBeforeUnmount(() => {
                 class="contact-card-main"
               >
                 <span class="material-symbols-rounded feature-icon">{{ item.icon }}</span>
-                <div>
+                <div class="contact-card-content">
                   <small>{{ item.label }}</small>
                   <strong>{{ item.value }}</strong>
                 </div>
@@ -413,7 +418,7 @@ onBeforeUnmount(() => {
 
               <template v-else>
                 <span class="material-symbols-rounded feature-icon">{{ item.icon }}</span>
-                <div>
+                <div class="contact-card-content">
                   <small>{{ item.label }}</small>
                   <strong>{{ item.value }}</strong>
                 </div>
@@ -434,11 +439,16 @@ onBeforeUnmount(() => {
           </div>
 
           <div class="contact-actions" data-reveal="up" :style="getRevealDelayStyle(0, 0, 120)">
-            <a href="mailto:matheushirata2001@outlook.com" class="button-primary">
-              <span class="material-symbols-rounded button-icon">mail</span>
+            <a href="https://wa.me/5518981765530" target="_blank" rel="noreferrer" class="button-primary">
+              <span class="material-symbols-rounded button-icon">chat</span>
               <span>Falar comigo</span>
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="button-secondary">
+            <a
+              href="https://www.linkedin.com/in/matheus-hirata-b15487149"
+              target="_blank"
+              rel="noreferrer"
+              class="button-secondary"
+            >
               <span class="material-symbols-rounded button-icon">business_center</span>
               <span>Ver LinkedIn</span>
             </a>
@@ -449,7 +459,7 @@ onBeforeUnmount(() => {
 
     <footer class="site-footer">
       <div class="content-wrap footer-inner">
-        © 2026 Matheus Hirata. Desenvolvedor Web Pleno | Full Stack em transicao para Front-End Specialist
+        © 2026 Matheus Hirata. Desenvolvedor Web Pleno | Full Stack em transição para Front-End Specialist
       </div>
     </footer>
   </div>

@@ -17,6 +17,8 @@ export type Project = {
   description: string;
   tags: string[];
   accent?: boolean;
+  coverSrc: string;
+  coverAlt: string;
   fields: ProjectField[];
 };
 
@@ -57,7 +59,8 @@ export type GalleryItem = {
   title: string;
   description: string;
   tag: string;
-  className: string;
+  imageSrc: string;
+  imageAlt: string;
 };
 
 export type ContactItem = {
