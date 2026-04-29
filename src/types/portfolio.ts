@@ -19,6 +19,9 @@ export type Project = {
   accent?: boolean;
   coverSrc: string;
   coverAlt: string;
+  coverFit?: "cover" | "contain";
+  coverPosition?: string;
+  coverBackground?: string;
   fields: ProjectField[];
 };
 

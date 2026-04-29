@@ -168,8 +168,14 @@ onBeforeUnmount(() => {
               :style="getRevealDelayStyle(index, 90)"
               data-reveal="up"
             >
-              <div class="project-cover">
-                <img :src="project.coverSrc" :alt="project.coverAlt" class="project-cover-image" loading="lazy" />
+              <div class="project-cover" :style="{ backgroundColor: project.coverBackground }">
+                <img
+                  :src="project.coverSrc"
+                  :alt="project.coverAlt"
+                  class="project-cover-image"
+                  :style="{ objectFit: project.coverFit ?? 'cover', objectPosition: project.coverPosition ?? 'center' }"
+                  loading="lazy"
+                />
               </div>
               <h3 class="project-title">{{ project.title }}</h3>
               <p class="project-description">{{ project.description }}</p>

@@ -28,107 +28,88 @@ export const metrics: Metric[] = [
 
 export const projects: Project[] = [
   {
-    title: "Valorauto - Plataforma de avaliação veicular",
+    title: "ValAuto - Comparador de indicadores veiculares",
     description:
-      "Uma aplicação focada em catálogo e avaliação de veículos, pensada para oferecer uma experiência visual moderna, comparações intuitivas e navegação clara.",
-    tags: ["Front-End", "UX", "Comparação visual", "Componentização"],
-    coverSrc: "/img/project-valorauto.svg",
-    coverAlt: "Capa editorial do projeto Valorauto com interface de catálogo e comparação veicular.",
+      "Plataforma pensada para explorar, analisar e comparar veículos com base em indicadores como consumo, desempenho, manutenção e custo-benefício, com navegação clara e leitura rápida dos dados.",
+    tags: ["Vue 3", "Comparação", "Filtros", "UX de dados"],
+    coverSrc: "/projects/valauto-main.png",
+    coverAlt: "Tela principal do projeto ValAuto com filtros, cards de veículos e fluxo de comparação.",
+    coverPosition: "center top",
     fields: [
       {
         label: "Problema",
-        text: "Era necessário estruturar uma interface que organizasse muitos dados de forma acessível, transmitindo confiança e facilitando a comparação entre veículos.",
+        text: "Era necessário apresentar muitos atributos técnicos e financeiros sem deixar a experiência confusa, facilitando a comparação entre veículos de perfis diferentes.",
       },
       {
         label: "Solução",
-        text: "Desenvolvi uma interface responsiva com listagem em cards, filtros por tipo, modal detalhado, comparador visual e organização das informações com foco em clareza e usabilidade.",
+        text: "Estruturei a interface com filtros por categoria, cards ricos em indicadores, ordenação e fluxo de comparação dedicado, priorizando hierarquia visual e tomada de decisão.",
       },
       {
         label: "Stack",
-        text: "Vue 3, Tailwind CSS, JavaScript, componentização, design orientado à experiência do usuário.",
+        text: "Vue 3, arquitetura componentizada, filtros dinâmicos, organização visual de métricas e interface orientada à experiência do usuário.",
       },
       {
         label: "Resultado",
-        text: "Uma interface mais rica, organizada e com melhor percepção de valor, pronta para futura integração com backend.",
+        text: "Uma experiência mais completa para análise veicular, com melhor leitura dos dados, comparação mais intuitiva e maior percepção de valor do produto.",
       },
     ],
   },
   {
-    title: "OpsVision - Dashboard operacional com SSR",
+    title: "GendAuto - Organizador de custos automotivos",
     description:
-      "Dashboard voltado para ambientes corporativos com foco em performance inicial, segurança de integração e organização visual dos dados.",
-    tags: ["SSR", "Performance", "Segurança", "Arquitetura"],
+      "Dashboard para controle de custos automotivos, consolidando manutenção, combustível, impostos, seguros, lembretes de pagamento e revisões em uma única visão operacional.",
+    tags: ["Nuxt 4", "Dashboard", "Custos", "Manutenção"],
     accent: true,
-    coverSrc: "/img/project-opsvision.svg",
-    coverAlt: "Capa editorial do projeto OpsVision com painéis de dashboard e estrutura orientada a SSR.",
+    coverSrc: "/projects/gendauto-main.png",
+    coverAlt: "Tela principal do projeto GendAuto com dashboard de custos e agenda de manutenção.",
+    coverFit: "contain",
+    coverPosition: "center center",
+    coverBackground: "#f4efe2",
     fields: [
       {
         label: "Problema",
-        text: "O desafio era reduzir a exposição de chamadas sensíveis no navegador e melhorar a experiência do usuário no carregamento inicial.",
+        text: "O desafio era centralizar diferentes categorias de gastos e compromissos do veículo em uma interface simples de acompanhar no uso recorrente.",
       },
       {
         label: "Solução",
-        text: "Estruturei uma arquitetura front-end com SSR e integração mediada por backend, melhorando a percepção de performance e tornando o fluxo mais robusto do ponto de vista técnico.",
+        text: "Desenhei um painel com visão consolidada da frota, cards de indicadores, agenda de manutenção e blocos financeiros para reduzir esforço operacional e facilitar o acompanhamento mensal.",
       },
       {
         label: "Stack",
-        text: "Nuxt, SSR, TypeScript, autenticação, integração segura, arquitetura front-end.",
+        text: "Nuxt 4, dashboard administrativo, organização de custos, acompanhamento de serviços e arquitetura voltada a dados operacionais.",
       },
       {
         label: "Resultado",
-        text: "Uma base mais madura para aplicações corporativas, com melhor carregamento inicial e experiência mais fluida.",
+        text: "Uma visão mais prática dos custos do veículo, com mais previsibilidade de gastos, lembretes organizados e melhor controle das rotinas de manutenção.",
       },
     ],
   },
   {
-    title: "LegacyCare - Modernização de sistema legado",
+    title: "Imovius - Busca de imóveis por mapa e região",
     description:
-      "Projeto de evolução de interface em sistema legado, com foco em melhorar experiência, manutenção e consistência visual sem interromper a operação.",
-    tags: ["Legado", "Refactor", "UX", "Evolução incremental"],
-    coverSrc: "/img/project-legacycare.svg",
-    coverAlt: "Capa editorial do projeto LegacyCare com evolução visual de sistema legado.",
+      "Plataforma para localizar imóveis disponíveis para venda e locação com base em regiões, combinando exploração geográfica em mapa com listagem tradicional.",
+    tags: ["Mapa interativo", "Busca regional", "Imóveis", "Exploração visual"],
+    coverSrc: "/projects/imovius.png",
+    coverAlt: "Tela do projeto Imovius com mapa de regiões e agrupamento de imóveis disponíveis.",
+    coverFit: "contain",
+    coverPosition: "center center",
+    coverBackground: "#eef1f7",
     fields: [
       {
         label: "Problema",
-        text: "A aplicação possuía inconsistência visual, dependências antigas e dificuldades de manutenção, o que impactava a experiência e a evolução do produto.",
+        text: "Era importante tornar a descoberta de imóveis mais visual e contextual, evitando uma navegação limitada a listas extensas e filtros pouco intuitivos.",
       },
       {
         label: "Solução",
-        text: "Atuei na reorganização da interface, melhoria de componentes, refinamento visual e preparação gradual da base para uma evolução tecnológica mais segura.",
+        text: "Organizei a experiência a partir de um mapa interativo por regiões, com marcadores, agrupamentos e leitura complementar em listagem para apoiar diferentes formas de busca.",
       },
       {
         label: "Stack",
-        text: "AngularJS, JavaScript, Bootstrap, refatoração gradual, manutenção evolutiva.",
+        text: "Front-end orientado a geolocalização, busca regional, filtros visuais e sincronização entre mapa e listagem de imóveis.",
       },
       {
         label: "Resultado",
-        text: "Melhor experiência visual, base mais organizada e redução de atrito para futuras melhorias.",
-      },
-    ],
-  },
-  {
-    title: "FlowDesk - Portal administrativo para operações internas",
-    description:
-      "Portal administrativo para gestão de processos, permissões e acompanhamento de informações operacionais.",
-    tags: ["Dashboard", "UX", "Organização visual", "Produtividade"],
-    coverSrc: "/img/project-flowdesk.svg",
-    coverAlt: "Capa editorial do projeto FlowDesk com módulos administrativos e fluxos internos.",
-    fields: [
-      {
-        label: "Problema",
-        text: "Usuários precisavam executar tarefas recorrentes em uma interface pouco intuitiva, com excesso de informação e baixa hierarquia visual.",
-      },
-      {
-        label: "Solução",
-        text: "Redesenhei a organização das áreas, priorizei hierarquia de informação, criei padrões visuais consistentes e simplifiquei a navegação entre fluxos.",
-      },
-      {
-        label: "Stack",
-        text: "Vue, TypeScript, Tailwind, design de interface, organização de informação.",
-      },
-      {
-        label: "Resultado",
-        text: "Fluxos mais claros, menor esforço cognitivo e aparência mais profissional para uma ferramenta interna de uso frequente.",
+        text: "Uma navegação mais rica e estratégica, ajudando o usuário a identificar oportunidades por localização com mais rapidez e entendimento espacial.",
       },
     ],
   },
