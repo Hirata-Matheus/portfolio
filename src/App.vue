@@ -50,7 +50,7 @@ onBeforeUnmount(() => {
           <a href="#projetos">Projetos</a>
           <a href="#stack">Stack</a>
           <a href="#sobre">Sobre</a>
-          <a href="#drones">Drones</a>
+          <a v-if="false" href="#drones">Drones</a>
           <a href="#contato" class="contact-nav">Contato</a>
         </nav>
       </div>
@@ -298,7 +298,7 @@ onBeforeUnmount(() => {
         </div>
       </section>
 
-      <section id="drones" class="section-block">
+      <section v-if="false" id="drones" class="section-block">
         <div class="content-wrap">
           <div class="section-head with-icon" data-reveal="left">
             <span class="material-symbols-rounded">flight</span>
