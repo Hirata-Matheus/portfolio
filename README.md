@@ -6,6 +6,16 @@ Personal portfolio built with Vue 3, TypeScript, Vite, and Tailwind CSS.
 
 This project presents Matheus Hirata's professional profile through a dark, editorial landing page focused on front-end engineering, product thinking, user experience, and selected case studies.
 
+## Professional Profile
+
+Matheus Hirata currently works as a Mid-Level Web Development Analyst, with a professional path built through steady progression inside the same corporate environment:
+
+- 10 months as a web development intern
+- 2 years and 9 months as a Junior Web Development Analyst
+- 2+ years as a Mid-Level Web Development Analyst
+
+He holds a degree in Systems Analysis and Development from UniSalesiano Araçatuba, a postgraduate degree in Software Engineering from UniToledo Wyden, and completed level 6 of the Open English program.
+
 ## Overview
 
 The portfolio is structured as a single-page experience with:
@@ -25,6 +35,17 @@ The portfolio is structured as a single-page experience with:
 - Vite
 - Tailwind CSS 4
 - Custom modular CSS architecture
+
+### Broader technical background
+
+- HTML and CSS
+- AngularJS
+- Vue 2, Vue 3, Vuetify, and Nuxt 4
+- Tailwind CSS and Material Design
+- JavaScript and TypeScript
+- WebSocket
+- Java, Kotlin, Go, and Spring Boot
+- Redis, Oracle, and PostgreSQL
 
 ## Project Structure
 

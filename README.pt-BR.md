@@ -6,6 +6,16 @@ Portfólio pessoal construído com Vue 3, TypeScript, Vite e Tailwind CSS.
 
 Este projeto apresenta o perfil profissional de Matheus Hirata por meio de uma landing page escura, com linguagem editorial e foco em engenharia front-end, visão de produto, experiência do usuário e estudos de caso selecionados.
 
+## Perfil Profissional
+
+Matheus Hirata atua atualmente como Analista de Desenvolvimento Web Pleno, com uma trajetória construída por evolução contínua dentro do mesmo ambiente corporativo:
+
+- 10 meses como estagiário em desenvolvimento web
+- 2 anos e 9 meses como Analista de Desenvolvimento Web Júnior
+- Mais de 2 anos como Analista de Desenvolvimento Web Pleno
+
+É formado em Análise e Desenvolvimento de Sistemas pela UniSalesiano Araçatuba, pós-graduado em Engenharia de Software pela UniToledo Wyden e concluiu o nível 6 do curso de inglês da Open English.
+
 ## Visão Geral
 
 O portfólio foi estruturado como uma experiência de página única com:
@@ -25,6 +35,17 @@ O portfólio foi estruturado como uma experiência de página única com:
 - Vite
 - Tailwind CSS 4
 - Arquitetura CSS modular customizada
+
+### Base técnica ampliada
+
+- HTML e CSS
+- AngularJS
+- Vue 2, Vue 3, Vuetify e Nuxt 4
+- Tailwind CSS e Material Design
+- JavaScript e TypeScript
+- WebSocket
+- Java, Kotlin, Go e Spring Boot
+- Redis, Oracle e PostgreSQL
 
 ## Estrutura do Projeto
 

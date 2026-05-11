@@ -62,10 +62,11 @@ onBeforeUnmount(() => {
           <div class="hero-copy" data-reveal="left">
             <div class="eyebrow-pill">Foco atual: Front-End, UX e Arquitetura de Interfaces</div>
             <h1 class="display-title">Matheus Hirata</h1>
-            <p class="hero-subtitle">Desenvolvedor Web Pleno | Full Stack em transição para Front-End Specialist</p>
+            <p class="hero-subtitle">Analista de Desenvolvimento Web Pleno | Base full stack com foco crescente em Front-End</p>
             <p class="hero-description">
-              Crio interfaces modernas, performáticas e escaláveis, unindo visão de produto, experiência do usuário e
-              qualidade de código para construir soluções digitais mais claras, robustas e profissionais.
+              Atuo no desenvolvimento de soluções web com visão de produto, atenção à experiência do usuário e base
+              técnica sólida entre front-end, back-end e dados, construindo interfaces claras, escaláveis e prontas
+              para contextos corporativos reais.
             </p>
 
             <div class="hero-actions">
@@ -77,8 +78,8 @@ onBeforeUnmount(() => {
             </div>
 
             <p class="hero-footnote">
-              6 anos de experiência em desenvolvimento web, atuando entre front-end, back-end e evolução de sistemas
-              corporativos.
+              Mais de 5 anos de experiência em desenvolvimento web, com trajetória de estagiário a analista pleno em
+              ambientes corporativos.
             </p>
           </div>
 
@@ -103,30 +104,34 @@ onBeforeUnmount(() => {
             <h2 class="section-title">Sobre mim</h2>
             <div class="rich-copy">
               <p>
-                Sou desenvolvedor web com 6 anos de experiência, com atuação full stack em projetos que exigem desde
-                construção de interfaces até integrações, regras de negócio e manutenção de sistemas complexos.
+                Atuo em desenvolvimento web há mais de 5 anos, com experiência construída de forma progressiva em
+                ambiente corporativo: 10 meses como estagiário, 2 anos e 9 meses como Analista de Desenvolvimento Web
+                Júnior e, atualmente, mais de 2 anos como Analista de Desenvolvimento Web Pleno.
               </p>
               <p>
-                Ao longo dessa jornada, percebi que meu maior diferencial está na criação de experiências front-end
-                mais claras, modernas e bem estruturadas. Por isso, tenho direcionado minha carreira para uma
-                especialização em Front-End, combinando interface, usabilidade, performance, componentização e visão de
-                produto.
+                Ao longo dessa trajetória, consolidei uma base full stack com atuação em interfaces, integrações,
+                manutenção evolutiva, regras de negócio e sistemas internos. Hoje, direciono minha evolução para
+                arquitetura front-end, usabilidade, performance, componentização e construção de experiências digitais
+                mais bem resolvidas.
               </p>
               <p>
-                Meu foco é construir aplicações que não apenas funcionem bem, mas que transmitam qualidade, organização
-                e confiança para quem usa.
+                Sou formado em Análise e Desenvolvimento de Sistemas pela UniSalesiano Araçatuba e pós-graduado em
+                Engenharia de Software pela UniToledo Wyden, além de ter concluído o nível 6 do curso de inglês da
+                Open English. Meu foco é construir aplicações que aliem clareza visual, qualidade técnica e confiança
+                para quem usa.
               </p>
             </div>
           </div>
 
           <aside class="surface-card focus-card" data-reveal="right" :style="getRevealDelayStyle(0, 0, 120)">
-            <h3>Hoje meu foco está em:</h3>
+            <h3>Hoje minha atuação combina:</h3>
             <ul class="check-list">
               <li>Front-End moderno</li>
-              <li>UX aplicada ao desenvolvimento</li>
               <li>Arquitetura de componentes</li>
+              <li>UX aplicada ao desenvolvimento</li>
               <li>Performance e escalabilidade</li>
-              <li>Interfaces com aparência premium</li>
+              <li>Integração com backend e dados</li>
+              <li>Interfaces com acabamento profissional</li>
             </ul>
           </aside>
         </div>
@@ -219,10 +224,10 @@ onBeforeUnmount(() => {
           </div>
 
           <article class="surface-card status-banner" data-reveal="scale" :style="getRevealDelayStyle(0, 0, 120)">
-            <h3>Especialização em andamento</h3>
+            <h3>Especialização em evolução contínua</h3>
             <p>
-              Transformando uma base full stack sólida em uma atuação cada vez mais focada em Front-End, arquitetura de
-              interfaces e experiência digital.
+              Aprofundando uma base full stack consolidada em uma atuação cada vez mais direcionada a Front-End,
+              arquitetura de interfaces, experiência digital e qualidade percebida do produto.
             </p>
           </article>
         </div>
@@ -391,7 +396,8 @@ onBeforeUnmount(() => {
             <h2 class="section-title">Vamos construir algo de alto nível?</h2>
             <p class="section-description contact-copy">
               Estou em busca de oportunidades onde eu possa contribuir com interfaces mais modernas, escaláveis e bem
-              pensadas, aprofundando minha especialização em Front-End e experiência do usuário.
+              pensadas, ampliando meu impacto em arquitetura front-end, experiência do usuário e evolução de produtos
+              digitais.
             </p>
           </div>
 
@@ -465,7 +471,7 @@ onBeforeUnmount(() => {
 
     <footer class="site-footer">
       <div class="content-wrap footer-inner">
-        © 2026 Matheus Hirata. Desenvolvedor Web Pleno | Full Stack em transição para Front-End Specialist
+        © 2026 Matheus Hirata. Analista de Desenvolvimento Web Pleno | Base full stack com foco crescente em Front-End
       </div>
     </footer>
   </div>

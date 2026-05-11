@@ -20,10 +20,10 @@ export const heroBadges: SkillBadge[] = [
 ];
 
 export const metrics: Metric[] = [
-  { value: "6 anos", label: "De experiência em desenvolvimento web" },
-  { value: "Full Stack", label: "Base sólida entre front-end e back-end" },
-  { value: "Foco em Front-End", label: "Especialização em interfaces e experiência do usuário" },
-  { value: "Projetos diversos", label: "Experiência com sistemas internos, dashboards e produtos digitais" },
+  { value: "5+ anos", label: "De experiência em desenvolvimento web corporativo" },
+  { value: "3 etapas", label: "Evolução profissional de estagiário a analista pleno" },
+  { value: "ADS + Pós", label: "Formação em Análise e Desenvolvimento de Sistemas e Engenharia de Software" },
+  { value: "Full Stack", label: "Base sólida em front-end, back-end, integrações e dados" },
 ];
 
 export const projects: Project[] = [
@@ -119,23 +119,23 @@ export const stackGroups: StackGroup[] = [
   {
     icon: "code",
     title: "Front-End",
-    items: ["Vue 2", "Vue 3", "Nuxt", "JavaScript", "TypeScript", "Tailwind CSS", "HTML", "CSS", "Componentização", "Responsividade"],
+    items: ["HTML", "CSS", "AngularJS", "Vue 2", "Vuetify", "Vue 3", "Tailwind CSS", "Material Design", "JavaScript", "TypeScript"],
   },
   {
     icon: "layers",
-    title: "UX e qualidade de interface",
-    items: ["Hierarquia visual", "Design orientado à usabilidade", "Consistência visual", "Performance percebida", "Acessibilidade", "Experiência do usuário"],
+    title: "Arquitetura de interface",
+    items: ["Nuxt 4", "Componentização", "Responsividade", "WebSocket", "Hierarquia visual", "Design orientado à usabilidade", "Consistência visual", "Experiência do usuário"],
   },
   {
     icon: "task_alt",
-    title: "Testes e qualidade",
-    items: ["Playwright", "Vitest", "Testes de interface", "Validação de fluxos críticos"],
+    title: "Back-End e integrações",
+    items: ["Java", "Kotlin", "Go", "Spring Boot", "APIs REST", "Integrações", "Autenticação", "Fluxos orientados a negócio"],
   },
   {
     icon: "bolt",
-    title: "Back-End e apoio técnico",
+    title: "Dados e suporte técnico",
     accent: true,
-    items: ["Java", "Kotlin", "Spring Boot", "APIs REST", "Autenticação", "Integrações", "Docker"],
+    items: ["Redis", "Oracle", "PostgreSQL", "Modelagem de dados", "Manutenção evolutiva", "Sistemas corporativos", "Escalabilidade"],
   },
 ];
 
@@ -160,33 +160,33 @@ export const highlights: Highlight[] = [
   },
   {
     icon: "workspace_premium",
-    title: "Equilíbrio entre estética e manutenção",
+    title: "Base técnica com evolução consistente",
     description:
-      "Valorizo interfaces modernas e bem acabadas, sem abrir mão de componentização, reaproveitamento e escalabilidade.",
+      "Minha trajetória foi construída com progressão contínua de responsabilidades, unindo repertório full stack, formação acadêmica sólida e foco crescente em qualidade de interface.",
   },
 ];
 
 export const timeline: TimelineItem[] = [
   {
-    title: "Início da jornada",
+    title: "Estágio em desenvolvimento web",
     description:
-      "Entrada no desenvolvimento web com atuação prática em interfaces, manutenção de sistemas e construção de funcionalidades para aplicações internas.",
+      "Atuação por 10 meses com foco em manutenção de sistemas, construção de interfaces e contato direto com rotinas de desenvolvimento em ambiente corporativo.",
   },
   {
-    title: "Crescimento como full stack",
+    title: "Promoção para Analista de Desenvolvimento Web Júnior",
     description:
-      "Expansão da atuação para integrações, regras de negócio, APIs e maior entendimento do ciclo completo de desenvolvimento.",
+      "Ciclo de 2 anos e 9 meses com ampliação de escopo técnico, participação em integrações, regras de negócio, manutenção evolutiva e desenvolvimento de novas funcionalidades.",
   },
   {
-    title: "Aproximação com produto e experiência",
+    title: "Consolidação da atuação full stack",
     description:
-      "Maior foco na camada visual, qualidade da interface, clareza dos fluxos e impacto da experiência do usuário no valor percebido do produto.",
+      "Evolução consistente entre front-end, back-end e dados, com experiência em sistemas internos, produtos digitais, interfaces administrativas e fluxos orientados a operação.",
   },
   {
-    title: "Especialização em Front-End",
+    title: "Analista de Desenvolvimento Web Pleno",
     accent: true,
     description:
-      "Movimento estratégico para aprofundar atuação em arquitetura front-end, UX, performance, componentização e construção de interfaces premium.",
+      "Atuação atual há mais de 2 anos, com maior maturidade técnica e foco crescente em arquitetura front-end, experiência do usuário, componentização e construção de interfaces robustas.",
   },
 ];
 
